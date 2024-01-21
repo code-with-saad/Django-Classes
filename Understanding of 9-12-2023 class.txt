@@ -1,0 +1,26 @@
+Restful endpoints
+http://my-project/user        - GET
+http://my-project/user        - POST
+http://my-project/user/<id>   - GET
+http://my-project/user/<id>   - PUT
+http://my-project/user/<id>   - DELETE
+http://my-project/user/<id>   - PATCH
+
+
+
+
+
+
+
+
+
+
+http://my-project/city/<city_id>/department/<department_id> => It follows Hierarchy 
+
+
+http://my-project/comment/<comment_id>/post/<post_id> => It is Not Looking Good
+
+        
+       It is Domain Part       It is Base Part                   It is resource part
+          |                      |                                 |
+http://  my-project       / post/<post_id>/comment/<comment_id>/react/<react_id>
